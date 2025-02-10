@@ -5,7 +5,7 @@ import Link from "next/link";
 async function getPosts() {
   try {
     const response = await fetch("https://jsonplaceholder.typicode.com/posts", {
-      next: { revalidate: 7200 }, // Cache for 2 hours
+      next: { revalidate: 7200 }, 
     });
 
     if (!response.ok) {
@@ -14,8 +14,7 @@ async function getPosts() {
 
     return await response.json();
   } catch (error) {
-    console.error("Error fetching users:", error.message);
-    return null; // Return null or an empty array to prevent crashes
+    return null;
   }
 }
 

@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+My Project
 
-## Getting Started
+Overview
 
-First, run the development server:
+This project is a React-based web application that manages users and posts. It follows a structured folder architecture and utilizes dynamic routing for individual user and post details.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Folder Structure
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+app/
+  ├── users/
+  │   ├── page.jsx
+  │   ├── [id]/
+  │   │   ├── page.jsx
+  │   │   ├── loading.jsx
+  │
+  ├── posts/
+  │   ├── page.jsx
+  │   ├── [id]/
+  │   │   ├── page.jsx
+  │   │   ├── loading.jsx
+  │
+src/
+  ├── components/
+  │   ├── Navbar.jsx
+  │   ├── UserCard.jsx
+  │   ├── PostCard.jsx
+  │   ├── UserDetails.jsx
+  │   ├── PostDetails.jsx
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Installation & Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Prerequisites
 
-## Learn More
+Node.js (>=16)
 
-To learn more about Next.js, take a look at the following resources:
+npm or yarn
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Steps
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Clone the Repository
 
-## Deploy on Vercel
+git clone <repository-url>
+cd <project-folder>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Install Dependencies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm install  # or yarn install
+
+Run the Development Server
+
+npm start  # or yarn start
+
+Open the App
+The application will be available at:
+
+http://localhost:3000
+
+Features
+
+User Management: View all users and their details.
+
+Post Management: View all posts and their details.
+
+Dynamic Routing: Users and posts have their own unique pages.
+
+Loading States: Separate loading.jsx files handle skeleton loaders.
+
+Approach
+
+This project follows a modular approach:
+
+Component Reusability: Created reusable components (UserCard, PostCard, UserDetails, PostDetails, Navbar).
+
+Dynamic Routing: Used folder-based routing for users and posts.
+
+Efficient Data Fetching: Implemented loading states to enhance UX.
+
+Screenshots
+
+Homepage
+User Page
+Post Page
