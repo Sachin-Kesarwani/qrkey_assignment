@@ -39,7 +39,7 @@ Steps
 
 Clone the Repository
 
-git clone <repository-url>
+git clone https://github.com/Sachin-Kesarwani/qrkey_assignment.git
 cd <project-folder>
 
 Install Dependencies
@@ -48,7 +48,7 @@ npm install  # or yarn install
 
 Run the Development Server
 
-npm start  # or yarn start
+```npm run dev```
 
 Open the App
 The application will be available at:
