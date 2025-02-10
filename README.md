@@ -44,7 +44,7 @@ cd <project-folder>
 
 Install Dependencies
 
-npm install  # or yarn install
+```npm install  ```
 
 Run the Development Server
 
@@ -57,23 +57,23 @@ http://localhost:3000
 
 Features
 
-User Management: View all users and their details.
+User Management: ```View all users and their details.```
 
-Post Management: View all posts and their details.
+Post Management: ```View all posts and their details.```
 
-Dynamic Routing: Users and posts have their own unique pages.
+Dynamic Routing: ```Users and posts have their own unique pages.```
 
-Loading States: Separate loading.jsx files handle skeleton loaders.
+Loading States: ```Separate loading.jsx files handle skeleton loaders.```
 
 Approach
 
 This project follows a modular approach:
 
-Component Reusability: Created reusable components (UserCard, PostCard, UserDetails, PostDetails, Navbar).
+Component Reusability: Created reusable components ```(UserCard, PostCard, UserDetails, PostDetails, Navbar)```.
 
-Dynamic Routing: Used folder-based routing for users and posts.
+Dynamic Routing: ```Used folder-based routing for users and posts.```
 
-Efficient Data Fetching: Implemented loading states to enhance UX.
+Efficient Data Fetching: ```Implemented loading states to enhance UX.```
 
 Screenshots
 
