@@ -3,7 +3,7 @@ import React from "react";
 const loading = () => {
   return (
     <>
-      <div className=" bg-gray-200 m-auto rounded-2xl  mb-2 w-[400px] my-4 h-12" />
+      <div className=" bg-gray-200 m-auto rounded-2xl  mb-2 max-w-[400px] my-4 h-12" />
       <div className="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-6 border border-gray-300 animate-pulse">
         <div className="h-6 w-3/4 bg-gray-200 rounded mb-2"></div>
         <div className="h-4 w-1/2 bg-gray-200 rounded mb-4"></div>

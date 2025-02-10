@@ -3,7 +3,7 @@ import React from "react";
 const loading = () => {
   return (
     <>
-    <div className=" bg-gray-200 m-auto rounded-2xl  mb-2 w-[400px] my-4 h-12"/>
+    <div className=" bg-gray-200 m-auto rounded-2xl  mb-2 max-w-[400px] my-4 h-12"/>
     <div className="flex flex-wrap justify-center gap-4">
       {new Array(6).fill("loading").map((item, index) => {
         return (

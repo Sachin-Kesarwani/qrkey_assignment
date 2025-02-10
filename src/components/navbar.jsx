@@ -16,7 +16,7 @@ const Navbar = () => {
       >
         {navBar.map((item, index) => (
           <div onClick={()=>router.push(item.pathname)} key={index} className="w-[50%] cursor-pointer">
-            <p className={` ${item.pathname==currentpathname?"text-blue-500":"text-white"} text-center`}>{item.title}</p>
+            <p className={` ${currentpathname.includes(item.pathname)?"text-blue-500":"text-white"} text-center`}>{item.title}</p>
           </div>
         ))}
       </div>

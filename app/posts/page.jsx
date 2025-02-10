@@ -23,7 +23,7 @@ const page = async () => {
 
   if (!posts) {
     return (
-      <div className="border border-red-600 p-5 text-center text-red-500">
+      <div className=" p-5 text-center text-red-500">
         <Navbar />
         <h2 className="text-2xl font-bold">
           Failed to load posts. Please try again.
