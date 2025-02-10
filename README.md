@@ -74,9 +74,3 @@ Component Reusability: Created reusable components ```(UserCard, PostCard, UserD
 Dynamic Routing: ```Used folder-based routing for users and posts.```
 
 Efficient Data Fetching: ```Implemented loading states to enhance UX.```
-
-Screenshots
-
-Homepage
-User Page
-Post Page
